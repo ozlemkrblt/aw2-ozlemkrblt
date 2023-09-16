@@ -11,10 +11,16 @@ public class VkDbContext : DbContext
     }
 
 
-    public DbSet<User> Users { get; set; }
+    public DbSet<Customer> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.ApplyConfiguration(new CustomerConfigruration());
+        modelBuilder.ApplyConfiguration(new AccountConfigruration());
+        modelBuilder.ApplyConfiguration(new AccountTransactionConfigruration());
+        modelBuilder.ApplyConfiguration(new AddressConfigruration());
+        modelBuilder.ApplyConfiguration(new EftTransactionConfigruration());
+        modelBuilder.ApplyConfiguration(new CardConfigruration());
 
         base.OnModelCreating(modelBuilder);
     }
