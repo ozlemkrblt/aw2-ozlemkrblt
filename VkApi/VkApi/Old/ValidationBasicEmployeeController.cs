@@ -21,7 +21,7 @@ public class BasicEmployee
 }
 
 
-
+[NonController]
 [Route("vk/api/v1/[controller]")]
 [ApiController]
 public class ValidationBasicEmployeeController : ControllerBase

@@ -1,40 +1,68 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Vk.Data.Context;
+using AutoMapper;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using Vk.Base.Response;
 using Vk.Data.Domain;
+using Vk.Data.Uow;
+using Vk.Operation;
+using Vk.Schema;
 
-namespace Vk.Api.Controllers;
+namespace VkApi.Controllers;
 
 [Route("vk/api/v1/[controller]")]
 [ApiController]
 public class CustomersController : ControllerBase
 {
-    private readonly VkDbContext dbContext;
-    public CustomersController(VkDbContext dbContext)
+    private IMediator mediator;
+    private IMapper mapper;
+
+    public CustomersController(IMapper mapper, IMediator mediator)
     {
-        this.dbContext = dbContext; 
+        this.mapper = mapper;
+        this.mediator = mediator;
     }
-
-
+    
+    
     [HttpGet]
-    public void Get()
+    public async Task<ApiResponse<List<CustomerResponse>>> GetAll()
     {
-        var list = dbContext.Set<Customer>().ToList();
+        var operation = new GetAllCustomerQuery();
+        var result = await mediator.Send(operation);
+        return result;
+    }
 
-        var list2 = dbContext.Set<Customer>().Include(x=> x.Addresses).ToList();
-
-        var list3 = dbContext.Set<Customer>().Include(x=> x.Accounts).ToList();
-
-        var list4 = dbContext.Set<Customer>().Include(x=> x.Accounts).Include(x=> x.Addresses).ToList();
-
-        var list5 = dbContext.Set<Customer>()
-            .Include(x => x.Accounts).ThenInclude(x=> x.AccountTransactions)
-            .Include(x => x.Accounts).ThenInclude(x => x.EftTransactions)
-            .Include(x => x.Accounts).ThenInclude(x => x.Card)
-            .Include(x => x.Addresses).ToList();
-
-
+    [HttpGet("{id}")]
+    public async Task<ApiResponse<CustomerResponse>> Get(int id)
+    {
+        var operation = new GetCustomerByIdQuery(id);
+        var result = await mediator.Send(operation);
+        return result;
     }
 
 
+    [HttpPost]
+    public async Task<ApiResponse<CustomerResponse>> Post([FromBody] CustomerRequest request)
+    {
+        var operation = new CreateCustomerCommand(request);
+        var result = await mediator.Send(operation);
+        return result;
+    }
+
+    [HttpPut("{id}")]
+    public async Task<ApiResponse> Put(int id, [FromBody] CustomerRequest request)
+    {
+        var operation = new UpdateCustomerCommand(request,id);
+        var result = await mediator.Send(operation);
+        return result;
+    }
+
+
+    [HttpDelete("{id}")]
+    public async Task <ApiResponse> Delete(int id)
+    {
+        var operation = new DeleteCustomerCommand(id);
+        var result = await mediator.Send(operation);
+        return result;
+    }
+    
 }

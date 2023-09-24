@@ -4,6 +4,7 @@ using N11ServiceReference;
 
 namespace VkApi.Controllers;
 
+[NonController]
 [Route("api/[controller]")]
 [ApiController]
 public class SoapTestController : ControllerBase

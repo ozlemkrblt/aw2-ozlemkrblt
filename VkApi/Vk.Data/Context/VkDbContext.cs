@@ -11,7 +11,7 @@ public class VkDbContext : DbContext
     }
 
 
-    public DbSet<Customer> Users { get; set; }
+    public DbSet<Customer> Customers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -24,8 +24,5 @@
     <ProjectReference Include="..\Vk.Base\Vk.Base.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Uow\" />
-  </ItemGroup>
 
 </Project>

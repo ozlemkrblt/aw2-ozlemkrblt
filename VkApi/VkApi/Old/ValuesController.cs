@@ -5,7 +5,7 @@ using Vk.Data.Repository;
 
 namespace VkApi.Controllers;
 
-
+[NonController]
 [Route("vk/api/v1/[controller]")]
 [ApiController]
 public class ValuesController : ControllerBase

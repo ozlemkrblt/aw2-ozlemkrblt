@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Vk.Data\Vk.Data.csproj" />
+    <ProjectReference Include="..\Vk.Operation\Vk.Operation.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,5 +27,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+
+
 
 </Project>

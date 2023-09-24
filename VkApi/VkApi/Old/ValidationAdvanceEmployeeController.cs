@@ -59,6 +59,7 @@ public class MinLegalSalaryRequiredAttribute : ValidationAttribute
 }
 
 
+[NonController]
 [Route("vk/api/v1/[controller]")]
 [ApiController]
 public class ValidationAdvanceEmployeeController : ControllerBase
