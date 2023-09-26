@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 using Vk.Base;
 using Vk.Data.Context;
 
@@ -31,21 +32,58 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
         dbContext.Set<TEntity>().Update(entity);
     }
 
-    public List<TEntity> GetAll()
+    public List<TEntity> GetAll(params string[] includes)
     {
-        return  dbContext.Set<TEntity>().AsNoTracking().ToList();
+        var query = dbContext.Set<TEntity>().AsQueryable();
+        if (includes.Any())
+        {
+            query = includes.Aggregate(query, (current, incl) => current.Include(incl));
+        }
+        return query.ToList();
     }
 
-    public IQueryable<TEntity> GetAsQueryable()
+    public IQueryable<TEntity> GetAsQueryable(params string[] includes)
     {
-        return dbContext.Set<TEntity>().AsQueryable();
+        var query = dbContext.Set<TEntity>().AsQueryable();
+        if (includes.Any())
+        {
+            query = includes.Aggregate(query, (current, incl) => current.Include(incl));
+        }
+        return query;
     }
 
-    public TEntity GetById(int id)
+    public IEnumerable<TEntity> Where(Expression<Func<TEntity, bool>> expression, params string[] includes)
     {
-        return dbContext.Set<TEntity>().Find(id);
+        var query = dbContext.Set<TEntity>().AsQueryable();
+        query.Where(expression);
+        if (includes.Any())
+        {
+            query = includes.Aggregate(query, (current, incl) => current.Include(incl));
+        }
+        return query.ToList();
     }
 
+    public TEntity GetById(int id,params string[] includes)
+    {
+        var query = dbContext.Set<TEntity>().AsQueryable();
+        if (includes.Any())
+        {
+            query = includes.Aggregate(query, (current, incl) => current.Include(incl));
+        }
+        return query.FirstOrDefault(x => x.Id == id);
+    }
+
+    public async Task<TEntity> GetByIdAsync(int id,CancellationToken cancellationToken,params string[] includes)
+    {
+        var query = dbContext.Set<TEntity>().AsQueryable();
+        if (includes.Any())
+        {
+            query = includes.Aggregate(query, (current, incl) => current.Include(incl));
+        }
+        return await query.FirstOrDefaultAsync(x => x.Id == id,cancellationToken);
+    }
+
+    
     public void Insert(TEntity entity)
     {
         entity.InsertDate = DateTime.UtcNow;
@@ -58,7 +96,7 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
         entities.ForEach(x =>
         {
             x.InsertUserId = 1;
-            x.InsertDate = DateTime.UtcNow; 
+            x.InsertDate = DateTime.UtcNow;
         });
         dbContext.Set<TEntity>().AddRange(entities);
     }
@@ -78,5 +116,4 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
     {
         dbContext.Set<TEntity>().Update(entity);
     }
-   
 }

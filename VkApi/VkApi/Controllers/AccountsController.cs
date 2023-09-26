@@ -8,44 +8,44 @@ namespace VkApi.Controllers;
 
 [Route("vk/api/v1/[controller]")]
 [ApiController]
-public class CustomersController : ControllerBase
+public class AccountsController : ControllerBase
 {
     private IMediator mediator;
 
-    public CustomersController(IMediator mediator)
+    public AccountsController(IMediator mediator)
     {
         this.mediator = mediator;
     }
 
 
     [HttpGet]
-    public async Task<ApiResponse<List<CustomerResponse>>> GetAll()
+    public async Task<ApiResponse<List<AccountResponse>>> GetAll()
     {
-        var operation = new GetAllCustomerQuery();
+        var operation = new GetAllAccountQuery();
         var result = await mediator.Send(operation);
         return result;
     }
 
     [HttpGet("{id}")]
-    public async Task<ApiResponse<CustomerResponse>> Get(int id)
+    public async Task<ApiResponse<AccountResponse>> Get(int id)
     {
-        var operation = new GetCustomerByIdQuery(id);
+        var operation = new GetAccountByIdQuery(id);
         var result = await mediator.Send(operation);
         return result;
     }
 
     [HttpPost]
-    public async Task<ApiResponse<CustomerResponse>> Post([FromBody] CustomerRequest request)
+    public async Task<ApiResponse<AccountResponse>> Post([FromBody] AccountRequest request)
     {
-        var operation = new CreateCustomerCommand(request);
+        var operation = new CreateAccountCommand(request);
         var result = await mediator.Send(operation);
         return result;
     }
 
     [HttpPut("{id}")]
-    public async Task<ApiResponse> Put(int id, [FromBody] CustomerRequest request)
+    public async Task<ApiResponse> Put(int id, [FromBody] AccountRequest request)
     {
-        var operation = new UpdateCustomerCommand(request, id);
+        var operation = new UpdateAccountCommand(request, id);
         var result = await mediator.Send(operation);
         return result;
     }
@@ -53,7 +53,7 @@ public class CustomersController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<ApiResponse> Delete(int id)
     {
-        var operation = new DeleteCustomerCommand(id);
+        var operation = new DeleteAccountCommand(id);
         var result = await mediator.Send(operation);
         return result;
     }

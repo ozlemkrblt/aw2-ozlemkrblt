@@ -28,7 +28,7 @@ public class CustomerCommandHandler :
     {
         Customer mapped = mapper.Map<Customer>(request.Model);
         
-       var entity = await dbContext.Set<Customer>().AddAsync(mapped,cancellationToken);
+        var entity = await dbContext.Set<Customer>().AddAsync(mapped,cancellationToken);
         await dbContext.SaveChangesAsync(cancellationToken);
 
         var response = mapper.Map<CustomerResponse>(entity.Entity);

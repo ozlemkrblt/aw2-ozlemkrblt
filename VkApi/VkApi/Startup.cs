@@ -8,6 +8,7 @@ using Vk.Data.Context;
 using Vk.Data.Uow;
 using Vk.Operation;
 using Vk.Operation.Mapper;
+using VkApi.Middleware;
 
 namespace VkApi;
 
@@ -30,10 +31,7 @@ public class Startup
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         
         services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
-        
         services.AddMediatR(typeof(CreateCustomerCommand).GetTypeInfo().Assembly);
-       // services.AddMediatR(Assembly.GetExecutingAssembly());
-        //services.AddValidatorsFromAssembly(typeof(Startup).Assembly);
 
 
         var config = new MapperConfiguration(cfg =>
@@ -59,6 +57,9 @@ public class Startup
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "VkApi v1"));
         }
+
+
+        app.UseMiddleware<HeartBeatMiddleware>();
 
         app.UseHttpsRedirection();
 

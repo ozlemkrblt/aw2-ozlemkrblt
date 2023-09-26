@@ -1,3 +1,4 @@
+using Serilog;
 using Vk.Data.Context;
 using Vk.Data.Domain;
 using Vk.Data.Repository;
@@ -38,7 +39,7 @@ public class UnitOfWork : IUnitOfWork
             catch (Exception ex)
             {
                 transaction.Rollback();
-                // log 
+               Log.Error("CompleteTransaction",ex);
             }
         }
     }
