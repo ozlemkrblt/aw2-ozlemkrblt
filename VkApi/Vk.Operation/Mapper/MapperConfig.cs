@@ -41,5 +41,8 @@ public class MapperConfig : Profile
             .ForMember(dest => dest.CustomerName,
                 opt => opt.MapFrom(src => src.Account.Customer.FirstName + " " + src.Account.Customer.LastName))
             .ForMember(dest => dest.CustomerNumber, opt => opt.MapFrom(src => src.Account.Customer.CustomerNumber));
+
+
+        CreateMap<MoneyTransferRequest, MoneyTransferResponse>();
     }
 }
