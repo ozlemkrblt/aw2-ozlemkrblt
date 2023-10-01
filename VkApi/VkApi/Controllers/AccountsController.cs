@@ -1,4 +1,5 @@
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Vk.Base.Response;
 using Vk.Operation;
@@ -19,6 +20,7 @@ public class AccountsController : ControllerBase
 
 
     [HttpGet]
+    [Authorize(Roles = "admin")]
     public async Task<ApiResponse<List<AccountResponse>>> GetAll()
     {
         var operation = new GetAllAccountQuery();
@@ -27,6 +29,7 @@ public class AccountsController : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [Authorize(Roles = "admin")]
     public async Task<ApiResponse<AccountResponse>> Get(int id)
     {
         var operation = new GetAccountByIdQuery(id);
@@ -34,7 +37,18 @@ public class AccountsController : ControllerBase
         return result;
     }
 
+    [HttpGet("ByCustomerId/{customerid}")]
+    [Authorize(Roles = "admin")]
+    public async Task<ApiResponse<List<AccountResponse>>> GetByCustomerId(int customerid)
+    {
+        var operation = new GetAccountByCustomerIdQuery(customerid);
+        var result = await mediator.Send(operation);
+        return result;
+    }
+
+    
     [HttpPost]
+    [Authorize(Roles = "admin")]
     public async Task<ApiResponse<AccountResponse>> Post([FromBody] AccountRequest request)
     {
         var operation = new CreateAccountCommand(request);
@@ -43,6 +57,7 @@ public class AccountsController : ControllerBase
     }
 
     [HttpPut("{id}")]
+    [Authorize(Roles = "admin")]
     public async Task<ApiResponse> Put(int id, [FromBody] AccountRequest request)
     {
         var operation = new UpdateAccountCommand(request, id);
@@ -51,6 +66,7 @@ public class AccountsController : ControllerBase
     }
 
     [HttpDelete("{id}")]
+    [Authorize(Roles = "admin")]
     public async Task<ApiResponse> Delete(int id)
     {
         var operation = new DeleteAccountCommand(id);
