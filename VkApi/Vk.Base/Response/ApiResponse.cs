@@ -3,7 +3,7 @@ using System.Text.Json;
 namespace Vk.Base.Response;
 
 
-public partial class ApiResponse
+public class ApiResponse
 {
     public override string ToString()
     {
@@ -26,7 +26,7 @@ public partial class ApiResponse
     public string Message { get; set; }
 }
 
-public partial class ApiResponse<T>
+public class ApiResponse<T>
 {
     public bool Success { get; set; }
     public string Message { get; set; }

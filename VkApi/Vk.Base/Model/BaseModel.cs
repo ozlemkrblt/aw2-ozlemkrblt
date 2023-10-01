@@ -1,6 +1,6 @@
 ﻿namespace Vk.Base;
 
-public class BaseModel
+public abstract class BaseModel
 {
     public int Id { get; set; }
     public int InsertUserId { get; set; }

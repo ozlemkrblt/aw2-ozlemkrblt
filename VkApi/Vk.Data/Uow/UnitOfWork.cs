@@ -7,7 +7,6 @@ namespace Vk.Data.Uow;
 
 public class UnitOfWork : IUnitOfWork
 {
-
     private readonly VkDbContext dbContext;
 
     public UnitOfWork(VkDbContext dbContext)
@@ -39,16 +38,16 @@ public class UnitOfWork : IUnitOfWork
             catch (Exception ex)
             {
                 transaction.Rollback();
-               Log.Error("CompleteTransaction",ex);
+                Log.Error("CompleteTransactionError", ex);
             }
         }
     }
 
-    
+
     public IGenericRepository<Customer> CustomerRepository { get; private set; }
-    public IGenericRepository<Account> AccountRepository { get;  private set;  }
-    public IGenericRepository<AccountTransaction> AccountTransactionRepository { get; private set;  }
-    public IGenericRepository<Address> AddressRepository { get; private set;  }
-    public IGenericRepository<Card> CardRepository { get;  private set; }
-    public IGenericRepository<EftTransaction> EftTransactionRepository { get; private set;  }
+    public IGenericRepository<Account> AccountRepository { get; private set; }
+    public IGenericRepository<AccountTransaction> AccountTransactionRepository { get; private set; }
+    public IGenericRepository<Address> AddressRepository { get; private set; }
+    public IGenericRepository<Card> CardRepository { get; private set; }
+    public IGenericRepository<EftTransaction> EftTransactionRepository { get; private set; }
 }

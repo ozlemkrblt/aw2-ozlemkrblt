@@ -22,7 +22,7 @@ public class HeartBeatMiddleware
             context.Response.StatusCode = 200;
             return;
         }
-
+        
         await next.Invoke(context);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using AutoMapper;
 using FluentValidation;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -8,6 +9,7 @@ using Vk.Data.Context;
 using Vk.Data.Uow;
 using Vk.Operation;
 using Vk.Operation.Mapper;
+using Vk.Operation.Validation;
 using VkApi.Middleware;
 
 namespace VkApi;
@@ -30,18 +32,21 @@ public class Startup
 
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         
-        services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
         services.AddMediatR(typeof(CreateCustomerCommand).GetTypeInfo().Assembly);
-
 
         var config = new MapperConfiguration(cfg =>
         {
             cfg.AddProfile(new MapperConfig());
         });
-        services.AddSingleton(config.CreateMapper()); 
+        services.AddSingleton(config.CreateMapper());
+
+
+        services.AddControllers().AddFluentValidation(x =>
+        {
+            x.RegisterValidatorsFromAssemblyContaining<BaseValidator>();
+        });
         
         
-        services.AddControllers();
         services.AddSwaggerGen(c =>
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "VkApi", Version = "v1" });

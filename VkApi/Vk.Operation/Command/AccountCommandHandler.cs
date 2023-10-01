@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Vk.Base.Response;
 using Vk.Data.Context;
+using Vk.Data.CustomRepository;
 using Vk.Data.Domain;
 using Vk.Schema;
 
