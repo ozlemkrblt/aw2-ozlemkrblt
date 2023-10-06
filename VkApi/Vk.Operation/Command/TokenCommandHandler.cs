@@ -35,7 +35,7 @@ public class TokenCommandHandler :
         var entity = await dbContext.Set<Customer>().FirstOrDefaultAsync(x => x.CustomerNumber == request.Model.CustomerNumber, cancellationToken);
         if (entity == null)
         {
-            return new ApiResponse<TokenResponse>("Invalid user informations");
+            return new ApiResponse<TokenResponse>("Invalid user informations!!");
         }
 
         var md5 = Md5.Create(request.Model.Password.ToUpper());
