@@ -40,7 +40,7 @@ public class EftTransactionController : ControllerBase
     [HttpGet("ByAccountId/{accountId}")]
     public async Task<ApiResponse<List<EftTransactionResponse>>> Post(int accountId)
     {
-        var operation = new GetMoneyTransferByAccountId(accountId);
+        var operation = new GetEftTransactionByAccountIdQuery(accountId);
         var result = await mediator.Send(operation);
         return result;
     }
