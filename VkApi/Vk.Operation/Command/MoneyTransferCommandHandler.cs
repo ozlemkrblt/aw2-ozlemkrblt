@@ -1,4 +1,3 @@
-//TODO :authorization and authentication
 using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;

@@ -5,13 +5,13 @@ VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vk.Api", "VkApi\Vk.Api.csproj", "{F0BE14CB-6B7E-4075-93A3-8DEC75FCD039}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vk.Base", "Vk.Base\Vk.Base.csproj", "{B9F2A6B5-BC84-40CA-9BF9-F830B1442E43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vk.Base", "Vk.Base\Vk.Base.csproj", "{B9F2A6B5-BC84-40CA-9BF9-F830B1442E43}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vk.Data", "Vk.Data\Vk.Data.csproj", "{13DE1AA3-E89B-487E-83DB-665E50EC29F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vk.Data", "Vk.Data\Vk.Data.csproj", "{13DE1AA3-E89B-487E-83DB-665E50EC29F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vk.Schema", "Vk.Schema\Vk.Schema.csproj", "{E538DB34-712A-424C-BB87-D53A40770883}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vk.Schema", "Vk.Schema\Vk.Schema.csproj", "{E538DB34-712A-424C-BB87-D53A40770883}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vk.Operation", "Vk.Operation\Vk.Operation.csproj", "{B97EFF6E-EA84-4DEC-B6A1-F8CD68DF5FA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vk.Operation", "Vk.Operation\Vk.Operation.csproj", "{B97EFF6E-EA84-4DEC-B6A1-F8CD68DF5FA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
