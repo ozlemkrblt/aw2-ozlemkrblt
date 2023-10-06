@@ -1,0 +1,2341 @@
+2023-10-06 16:37:04.310 [INF] App server is starting.
+2023-10-06 16:49:46.020 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 16:49:46.028 [INF] HeartBeat
+2023-10-06 16:49:46.031 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 16:49:46.453 [INF] -------------Request-Begin------------
+2023-10-06 16:49:46.455 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Customers 
+QueryString:  
+Request Body: 
+2023-10-06 16:49:46.457 [INF] 
+
+2023-10-06 16:49:46.458 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Customers 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 16:49:46.459 [INF] -------------Request-End------------
+2023-10-06 16:51:15.978 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 16:51:15.999 [INF] HeartBeat
+2023-10-06 16:51:16.001 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 16:51:18.599 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 16:51:18.608 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 16:51:18.615 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 16:51:18.621 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 16:51:18.627 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 16:51:18.633 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:12:32.699 [INF] App server is starting.
+2023-10-06 17:12:53.750 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 17:12:53.759 [INF] HeartBeat
+2023-10-06 17:12:53.764 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 17:12:54.341 [INF] -------------Request-Begin------------
+2023-10-06 17:12:54.346 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/TokenContoller 
+QueryString:  
+Request Body: {
+  "customerNumber": 0,
+  "password": "string"
+}
+2023-10-06 17:12:54.351 [INF] 
+
+2023-10-06 17:12:54.353 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/TokenContoller 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-f1d7fc70baddfa3e1ea2c753e250c063-0ca07d9da06e8847-00","errors":{"CustomerNumber":["CustomerNumber is required."]}}
+2023-10-06 17:12:54.357 [INF] -------------Request-End------------
+2023-10-06 17:13:19.774 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 17:13:19.787 [INF] HeartBeat
+2023-10-06 17:13:19.789 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 17:13:21.591 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:13:21.604 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:13:21.612 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:13:21.617 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:13:21.622 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:13:21.626 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:15:48.672 [INF] App server is starting.
+2023-10-06 17:17:49.216 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 17:17:49.226 [INF] HeartBeat
+2023-10-06 17:17:49.231 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 17:17:49.524 [INF] -------------Request-Begin------------
+2023-10-06 17:17:49.528 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+Request Body: 
+2023-10-06 17:17:49.530 [INF] 
+
+2023-10-06 17:17:49.533 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 17:17:49.534 [INF] -------------Request-End------------
+2023-10-06 17:17:51.269 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 17:17:51.272 [INF] HeartBeat
+2023-10-06 17:17:51.276 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 17:17:51.295 [INF] -------------Request-Begin------------
+2023-10-06 17:17:51.299 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+Request Body: 
+2023-10-06 17:17:51.312 [INF] 
+
+2023-10-06 17:17:51.320 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 17:17:51.330 [INF] -------------Request-End------------
+2023-10-06 17:30:41.596 [INF] App server is starting.
+2023-10-06 17:31:23.593 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 17:31:23.601 [INF] HeartBeat
+2023-10-06 17:31:23.606 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 17:31:23.822 [INF] -------------Request-Begin------------
+2023-10-06 17:31:23.825 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+Request Body: 
+2023-10-06 17:31:23.826 [INF] 
+
+2023-10-06 17:31:23.827 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 17:31:23.828 [INF] -------------Request-End------------
+2023-10-06 17:33:47.567 [INF] App server is starting.
+2023-10-06 17:34:09.959 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 17:34:09.965 [INF] HeartBeat
+2023-10-06 17:34:09.971 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 17:34:10.254 [INF] -------------Request-Begin------------
+2023-10-06 17:34:10.257 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+Request Body: 
+2023-10-06 17:34:10.262 [INF] 
+
+2023-10-06 17:34:10.265 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 17:34:10.268 [INF] -------------Request-End------------
+2023-10-06 17:35:09.094 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 17:35:09.097 [INF] HeartBeat
+2023-10-06 17:35:09.100 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 17:35:11.941 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:35:11.952 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:35:11.955 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:35:11.959 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:35:11.961 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:35:11.968 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 17:35:13.825 [ERR] An error occurred using the connection to database 'vkdb' on server 'DESKTOP-OU0UMLH'.
+2023-10-06 17:35:14.016 [ERR] An exception occurred while iterating over the results of a query for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user ''.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2974f9e9-8595-4346-b7b4-446a599a921e
+Error Number:18456,State:1,Class:14
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user ''.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2974f9e9-8595-4346-b7b4-446a599a921e
+Error Number:18456,State:1,Class:14
+2023-10-06 17:35:14.987 [FTL] Path=/vk/api/v1/Token || Method=POST || Exception=Login failed for user ''.
+2023-10-06 17:35:15.151 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id c0541cab-2daa-4216-9333-0fcbfa50d95c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 17:35:15.360 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id c0541cab-2daa-4216-9333-0fcbfa50d95c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 17:35:15.393 [ERR] Connection id "0HMU6F555VU4P", Request id "0HMU6F555VU4P:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id c0541cab-2daa-4216-9333-0fcbfa50d95c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-06 20:06:16.724 [INF] App server is starting.
+2023-10-06 20:09:17.418 [INF] App server is starting.
+2023-10-06 20:09:28.737 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 20:09:28.751 [INF] HeartBeat
+2023-10-06 20:09:28.754 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 20:09:29.164 [INF] -------------Request-Begin------------
+2023-10-06 20:09:29.167 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 0,
+  "password": "string"
+}
+2023-10-06 20:09:29.175 [INF] 
+
+2023-10-06 20:09:29.178 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-fba5fbfb01d863c884a98b302197d17c-f99afaf296c2329a-00","errors":{"CustomerNumber":["CustomerNumber is required."]}}
+2023-10-06 20:09:29.183 [INF] -------------Request-End------------
+2023-10-06 20:09:57.112 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 20:09:57.119 [INF] HeartBeat
+2023-10-06 20:09:57.121 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 20:09:58.464 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:09:58.473 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:09:58.476 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:09:58.478 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:09:58.483 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:09:58.486 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:09:59.535 [ERR] An error occurred using the connection to database 'vkdb' on server 'DESKTOP-OU0UMLH'.
+2023-10-06 20:09:59.589 [ERR] An exception occurred while iterating over the results of a query for context type 'Vk.Data.Context.VkDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - Borunun diğer ucunda işlem yok.)
+ ---> System.ComponentModel.Win32Exception (233): Borunun diğer ucunda işlem yok.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:2d55a1c3-57b9-4fe2-882e-e0490dda7009
+Error Number:233,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - Borunun diğer ucunda işlem yok.)
+ ---> System.ComponentModel.Win32Exception (233): Borunun diğer ucunda işlem yok.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:2d55a1c3-57b9-4fe2-882e-e0490dda7009
+Error Number:233,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-10-06 20:10:00.308 [FTL] Path=/vk/api/v1/Token || Method=POST || Exception=An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2023-10-06 20:10:00.490 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 236f6610-bc99-45d1-8641-8feee890e893 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 20:10:00.642 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 236f6610-bc99-45d1-8641-8feee890e893 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 20:10:00.667 [ERR] Connection id "0HMU6HRTBNAO6", Request id "0HMU6HRTBNAO6:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 236f6610-bc99-45d1-8641-8feee890e893 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-06 20:20:37.725 [INF] App server is starting.
+2023-10-06 20:31:23.832 [INF] App server is starting.
+2023-10-06 20:34:00.818 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 20:34:00.826 [INF] HeartBeat
+2023-10-06 20:34:00.833 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 20:34:02.725 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:34:02.733 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:34:02.735 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:34:02.737 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:34:02.739 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:34:02.742 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:34:03.863 [ERR] An error occurred using the connection to database 'vkdb' on server 'DESKTOP-OU0UMLH'.
+2023-10-06 20:34:03.888 [ERR] An exception occurred while iterating over the results of a query for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user ''.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:840cee5c-d8db-46e1-8cdc-6181bd40e46e
+Error Number:18456,State:1,Class:14
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user ''.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:840cee5c-d8db-46e1-8cdc-6181bd40e46e
+Error Number:18456,State:1,Class:14
+2023-10-06 20:34:03.920 [FTL] Path=/vk/api/v1/Token || Method=POST || Exception=Login failed for user ''.
+2023-10-06 20:34:03.929 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2dae39d9-c659-4f96-b796-5d00ad03401b and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 20:34:03.971 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2dae39d9-c659-4f96-b796-5d00ad03401b and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 20:34:03.983 [ERR] Connection id "0HMU6I88AMEG6", Request id "0HMU6I88AMEG6:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2dae39d9-c659-4f96-b796-5d00ad03401b and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-06 20:39:27.593 [INF] App server is starting.
+2023-10-06 20:39:56.412 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 20:39:56.422 [INF] HeartBeat
+2023-10-06 20:39:56.427 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 20:39:57.938 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:39:57.944 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:39:57.946 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:39:57.948 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:39:57.949 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:39:57.953 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:39:59.420 [INF] -------------Request-Begin------------
+2023-10-06 20:39:59.424 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 20:39:59.427 [INF] 
+
+2023-10-06 20:39:59.429 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-06 20:39:59.431 [INF] -------------Request-End------------
+2023-10-06 20:40:25.693 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 20:40:25.701 [INF] HeartBeat
+2023-10-06 20:40:25.708 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 20:40:25.860 [INF] -------------Request-Begin------------
+2023-10-06 20:40:25.863 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "HELLO"
+}
+2023-10-06 20:40:25.867 [INF] 
+
+2023-10-06 20:40:25.869 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-06 20:40:25.875 [INF] -------------Request-End------------
+2023-10-06 20:43:43.739 [INF] App server is starting.
+2023-10-06 20:44:25.120 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 20:44:25.128 [INF] HeartBeat
+2023-10-06 20:44:25.132 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 20:44:26.210 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:44:26.219 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:44:26.220 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:44:26.222 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:44:26.223 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:44:26.224 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 20:44:27.508 [INF] -------------Request-Begin------------
+2023-10-06 20:44:27.512 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 20:44:27.514 [INF] 
+
+2023-10-06 20:44:27.515 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-06 20:44:27.516 [INF] -------------Request-End------------
+2023-10-06 21:00:16.107 [INF] App server is starting.
+2023-10-06 21:00:38.188 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 21:00:38.193 [INF] HeartBeat
+2023-10-06 21:00:38.195 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 21:00:39.020 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 21:00:39.027 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 21:00:39.028 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 21:00:39.029 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 21:00:39.030 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 21:00:39.032 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 21:00:40.055 [INF] -------------Request-Begin------------
+2023-10-06 21:00:40.058 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 21:00:40.060 [INF] 
+
+2023-10-06 21:00:40.061 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T21:05:40.0357606+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MTU1MzksImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.TGOyGtNsVY48_Gq1G3V-zYUAy1MqzoIsS2BHNurhHpw","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 21:00:40.063 [INF] -------------Request-End------------
+2023-10-06 21:01:08.882 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 21:01:08.885 [INF] HeartBeat
+2023-10-06 21:01:08.886 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 21:01:09.190 [INF] -------------Request-Begin------------
+2023-10-06 21:01:09.194 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+Request Body: 
+2023-10-06 21:01:09.196 [INF] 
+
+2023-10-06 21:01:09.200 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Accounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"customerId":1,"customerName":"Lucy 1 Sellen","name":"Lucy1 Account 1","accountNumber":687567,"iban":"TR3460000634630000046346","balance":500.00,"currencyCode":"TRY","openDate":"2023-05-05T00:00:00","closeDate":null,"cardId":null,"eftTransactions":[],"accountTransactions":[]},{"id":2,"customerId":1,"customerName":"Lucy 1 Sellen","name":"Lucy1 Account 2","accountNumber":687568,"iban":"TR3460000634630000046346","balance":500.00,"currencyCode":"TRY","openDate":"2023-05-05T00:00:00","closeDate":null,"cardId":null,"eftTransactions":[],"accountTransactions":[]},{"id":3,"customerId":1,"customerName":"Lucy 1 Sellen","name":"Lucy1 Account 3","accountNumber":687569,"iban":"TR3460000634630000046346","balance":500.00,"currencyCode":"TRY","openDate":"2023-05-05T00:00:00","closeDate":null,"cardId":null,"eftTransactions":[],"accountTransactions":[]},{"id":4,"customerId":1,"customerName":"Lucy 1 Sellen","name":"Lucy1 Account 4","accountNumber":687570,"iban":"TR3460000634630000046346","balance":500.00,"currencyCode":"TRY","openDate":"2023-05-05T00:00:00","closeDate":null,"cardId":null,"eftTransactions":[],"accountTransactions":[]},{"id":5,"customerId":2,"customerName":"Lucy 2 Sellen","name":"Lucy2 Account 1","accountNumber":857123,"iban":"TR3460000634630000046346","balance":500.00,"currencyCode":"TRY","openDate":"2023-05-05T00:00:00","closeDate":null,"cardId":null,"eftTransactions":[],"accountTransactions":[]},{"id":6,"customerId":2,"customerName":"Lucy 2 Sellen","name":"Lucy2 Account 2","accountNumber":857124,"iban":"TR3460000634630000046346","balance":500.00,"currencyCode":"TRY","openDate":"2023-05-05T00:00:00","closeDate":null,"cardId":null,"eftTransactions":[],"accountTransactions":[]},{"id":7,"customerId":3,"customerName":"Lucy 3 Sellen","name":"Lucy3 Account 1","accountNumber":857125,"iban":"TR3460000634630000046346","balance":500.00,"currencyCode":"TRY","openDate":"2023-05-05T00:00:00","closeDate":null,"cardId":null,"eftTransactions":[],"accountTransactions":[]},{"id":8,"customerId":3,"customerName":"Lucy 3 Sellen","name":"Lucy3 Account 2","accountNumber":857126,"iban":"TR3460000634630000046346","balance":500.00,"currencyCode":"TRY","openDate":"2023-05-05T00:00:00","closeDate":null,"cardId":null,"eftTransactions":[],"accountTransactions":[]}]}
+2023-10-06 21:01:09.207 [INF] -------------Request-End------------
+2023-10-06 21:01:27.271 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 21:01:27.273 [INF] HeartBeat
+2023-10-06 21:01:27.276 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 21:01:27.351 [INF] -------------Request-Begin------------
+2023-10-06 21:01:27.352 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: 
+2023-10-06 21:01:27.355 [INF] 
+
+2023-10-06 21:01:27.356 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-06 21:01:27.358 [INF] -------------Request-End------------
+2023-10-06 21:02:36.079 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 21:02:36.081 [INF] HeartBeat
+2023-10-06 21:02:36.082 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 21:02:36.141 [INF] -------------Request-Begin------------
+2023-10-06 21:02:36.143 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByCustomerId/1 
+QueryString:  
+Request Body: 
+2023-10-06 21:02:36.144 [INF] 
+
+2023-10-06 21:02:36.145 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByCustomerId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-06 21:02:36.147 [INF] -------------Request-End------------
+2023-10-06 21:02:46.898 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 21:02:46.899 [INF] HeartBeat
+2023-10-06 21:02:46.900 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 21:02:46.928 [INF] -------------Request-Begin------------
+2023-10-06 21:02:46.932 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByAccountId/1 
+QueryString:  
+Request Body: 
+2023-10-06 21:02:46.934 [INF] 
+
+2023-10-06 21:02:46.937 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByAccountId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-06 21:02:46.939 [INF] -------------Request-End------------
+2023-10-06 21:06:23.529 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 21:06:23.532 [INF] HeartBeat
+2023-10-06 21:06:23.534 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 21:06:23.567 [INF] -------------Request-Begin------------
+2023-10-06 21:06:23.570 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: {
+  "accountId": 1,
+  "cardHolder": "Lucy 1 Sellen",
+  "cardNumber": 4321-2345-1234-1234,
+  "cvv": "330",
+  "expiryDate": "0526",
+  "expenseLimit": 4000
+}
+2023-10-06 21:06:23.573 [INF] 
+
+2023-10-06 21:06:23.575 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-424ede8d81ee40bd8abe5c65e5dd24b7-367e0a6d62243e0a-00","errors":{"request":["The request field is required."],"$.cardNumber":["'-' is an invalid end of a number. Expected a delimiter. Path: $.cardNumber | LineNumber: 3 | BytePositionInLine: 20."]}
+2023-10-06 21:06:23.576 [INF] -------------Request-End------------
+2023-10-06 21:06:59.177 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 21:06:59.180 [INF] HeartBeat
+2023-10-06 21:06:59.181 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 21:06:59.392 [INF] -------------Request-Begin------------
+2023-10-06 21:06:59.395 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: {
+  "accountId": 1,
+  "cardHolder": "Lucy 1 Sellen",
+  "cardNumber": 4321234512341234,
+  "cvv": "330",
+  "expiryDate": "0526",
+  "expenseLimit": 4000
+}
+2023-10-06 21:06:59.423 [INF] 
+
+2023-10-06 21:06:59.435 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0526","expenseLimit":4000,"accountName":null,"accountNumber":0}}
+2023-10-06 21:06:59.439 [INF] -------------Request-End------------
+2023-10-06 21:07:08.098 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 21:07:08.100 [INF] HeartBeat
+2023-10-06 21:07:08.101 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 21:07:08.124 [INF] -------------Request-Begin------------
+2023-10-06 21:07:08.127 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: 
+2023-10-06 21:07:08.130 [INF] 
+
+2023-10-06 21:07:08.133 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0526","expenseLimit":4000,"accountName":"Lucy1 Account 1","accountNumber":687567}]}
+2023-10-06 21:07:08.135 [INF] -------------Request-End------------
+2023-10-06 22:11:56.435 [INF] App server is starting.
+2023-10-06 22:12:49.806 [INF] App server is starting.
+2023-10-06 22:13:22.492 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:13:22.496 [INF] HeartBeat
+2023-10-06 22:13:22.499 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:13:23.873 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:13:23.891 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:13:23.893 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:13:23.894 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:13:23.896 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:13:23.898 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:13:25.239 [INF] -------------Request-Begin------------
+2023-10-06 22:13:25.240 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 22:13:25.242 [INF] 
+
+2023-10-06 22:13:25.243 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T22:18:25.2141808+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MTk5MDUsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.sdB9FGMgfS0FZuBq8eVeaB4fXQMu0GwqcAC6wfRNcQU","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 22:13:25.245 [INF] -------------Request-End------------
+2023-10-06 22:13:46.993 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:13:46.996 [INF] HeartBeat
+2023-10-06 22:13:46.997 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:13:47.350 [INF] -------------Request-Begin------------
+2023-10-06 22:13:47.352 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: 
+2023-10-06 22:13:47.355 [INF] 
+
+2023-10-06 22:13:47.357 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0526","expenseLimit":4000,"accountName":"Lucy1 Account 1","accountNumber":687567}]}
+2023-10-06 22:13:47.360 [INF] -------------Request-End------------
+2023-10-06 22:14:03.290 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:14:03.293 [INF] HeartBeat
+2023-10-06 22:14:03.294 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:14:03.354 [INF] -------------Request-Begin------------
+2023-10-06 22:14:03.357 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:14:03.359 [INF] 
+
+2023-10-06 22:14:03.360 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0526","expenseLimit":4000,"accountName":"Lucy1 Account 1","accountNumber":687567}}
+2023-10-06 22:14:03.362 [INF] -------------Request-End------------
+2023-10-06 22:15:35.902 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:15:35.910 [INF] HeartBeat
+2023-10-06 22:15:35.911 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:15:36.083 [INF] -------------Request-Begin------------
+2023-10-06 22:15:36.086 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+Request Body: {
+  "accountId": 1,
+  "cardHolder": "Lucy 1 Sellen",
+  "cardNumber": 4321234512341232,
+  "cvv": "330",
+  "expiryDate": "0527",
+  "expenseLimit": 5000
+}
+2023-10-06 22:15:36.089 [INF] 
+
+2023-10-06 22:15:36.092 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-10-06 22:15:36.094 [INF] -------------Request-End------------
+2023-10-06 22:15:42.564 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:15:42.567 [INF] HeartBeat
+2023-10-06 22:15:42.569 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:15:42.591 [INF] -------------Request-Begin------------
+2023-10-06 22:15:42.594 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:15:42.596 [INF] 
+
+2023-10-06 22:15:42.597 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0527","expenseLimit":5000,"accountName":"Lucy1 Account 1","accountNumber":687567}}
+2023-10-06 22:15:42.598 [INF] -------------Request-End------------
+2023-10-06 22:16:17.272 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:16:17.275 [INF] HeartBeat
+2023-10-06 22:16:17.277 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:16:17.314 [INF] -------------Request-Begin------------
+2023-10-06 22:16:17.315 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByAccountId/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:16:17.317 [INF] 
+
+2023-10-06 22:16:17.319 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByAccountId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0527","expenseLimit":5000,"accountName":"Lucy1 Account 1","accountNumber":687567}]}
+2023-10-06 22:16:17.322 [INF] -------------Request-End------------
+2023-10-06 22:17:07.076 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:17:07.086 [INF] HeartBeat
+2023-10-06 22:17:07.087 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:17:07.195 [INF] -------------Request-Begin------------
+2023-10-06 22:17:07.196 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: {
+  "accountId": 2,
+  "cardHolder": "Lucy 1 Sellen",
+  "cardNumber": 4321234512341231,
+  "cvv": "312",
+  "expiryDate": "0327",
+  "expenseLimit": 1000
+}
+2023-10-06 22:17:07.200 [INF] 
+
+2023-10-06 22:17:07.201 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"accountId":2,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341231,"cvv":"312","expiryDate":"0327","expenseLimit":1000,"accountName":null,"accountNumber":0}}
+2023-10-06 22:17:07.203 [INF] -------------Request-End------------
+2023-10-06 22:17:13.299 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:17:13.300 [INF] HeartBeat
+2023-10-06 22:17:13.301 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:17:13.323 [INF] -------------Request-Begin------------
+2023-10-06 22:17:13.325 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/2 
+QueryString:  
+Request Body: 
+2023-10-06 22:17:13.328 [INF] 
+
+2023-10-06 22:17:13.331 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"accountId":2,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341231,"cvv":"312","expiryDate":"0327","expenseLimit":1000,"accountName":"Lucy1 Account 2","accountNumber":687568}}
+2023-10-06 22:17:13.335 [INF] -------------Request-End------------
+2023-10-06 22:17:18.915 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:17:18.918 [INF] HeartBeat
+2023-10-06 22:17:18.919 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:17:18.975 [INF] -------------Request-Begin------------
+2023-10-06 22:17:18.980 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: 
+2023-10-06 22:17:18.982 [INF] 
+
+2023-10-06 22:17:18.984 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0527","expenseLimit":5000,"accountName":"Lucy1 Account 1","accountNumber":687567},{"accountId":2,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341231,"cvv":"312","expiryDate":"0327","expenseLimit":1000,"accountName":"Lucy1 Account 2","accountNumber":687568}]}
+2023-10-06 22:17:18.987 [INF] -------------Request-End------------
+2023-10-06 22:18:10.973 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:18:10.977 [INF] HeartBeat
+2023-10-06 22:18:10.991 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:18:11.066 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Card' with unique index 'IX_Card_AccountId'. The duplicate key value is (1).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d41078ef-1049-4d9b-aeaa-c26fe111c642
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Card' with unique index 'IX_Card_AccountId'. The duplicate key value is (1).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d41078ef-1049-4d9b-aeaa-c26fe111c642
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-06 22:18:11.798 [FTL] Path=/vk/api/v1/Cards || Method=POST || Exception=An error occurred while saving the entity changes. See the inner exception for details.
+2023-10-06 22:18:11.957 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 397d7267-ddf5-4954-b455-d9e5702928fc and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 22:18:12.005 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 397d7267-ddf5-4954-b455-d9e5702928fc and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 22:18:12.012 [ERR] Connection id "0HMU6K0V86B6R", Request id "0HMU6K0V86B6R:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 397d7267-ddf5-4954-b455-d9e5702928fc and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-06 22:19:31.714 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:19:31.727 [INF] HeartBeat
+2023-10-06 22:19:31.728 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:19:31.756 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Card' with unique index 'IX_Card_AccountId'. The duplicate key value is (1).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d41078ef-1049-4d9b-aeaa-c26fe111c642
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Card' with unique index 'IX_Card_AccountId'. The duplicate key value is (1).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d41078ef-1049-4d9b-aeaa-c26fe111c642
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-06 22:19:32.356 [FTL] Path=/vk/api/v1/Cards || Method=POST || Exception=An error occurred while saving the entity changes. See the inner exception for details.
+2023-10-06 22:19:32.494 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 1b024056-64a7-4649-aba6-63c583174d34 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 22:19:32.511 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 1b024056-64a7-4649-aba6-63c583174d34 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 22:19:32.526 [ERR] Connection id "0HMU6K0V86B6S", Request id "0HMU6K0V86B6S:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 1b024056-64a7-4649-aba6-63c583174d34 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-06 22:19:59.711 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:19:59.762 [INF] HeartBeat
+2023-10-06 22:19:59.765 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:19:59.789 [INF] -------------Request-Begin------------
+2023-10-06 22:19:59.792 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/2 
+QueryString:  
+Request Body: 
+2023-10-06 22:19:59.798 [INF] 
+
+2023-10-06 22:19:59.802 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"accountId":2,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341231,"cvv":"312","expiryDate":"0327","expenseLimit":1000,"accountName":"Lucy1 Account 2","accountNumber":687568}}
+2023-10-06 22:19:59.807 [INF] -------------Request-End------------
+2023-10-06 22:20:03.843 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:20:03.845 [INF] HeartBeat
+2023-10-06 22:20:03.847 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:20:03.856 [INF] -------------Request-Begin------------
+2023-10-06 22:20:03.858 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:20:03.861 [INF] 
+
+2023-10-06 22:20:03.864 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0527","expenseLimit":5000,"accountName":"Lucy1 Account 1","accountNumber":687567}}
+2023-10-06 22:20:03.870 [INF] -------------Request-End------------
+2023-10-06 22:20:41.531 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:20:41.545 [INF] HeartBeat
+2023-10-06 22:20:41.548 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:20:41.571 [INF] -------------Request-Begin------------
+2023-10-06 22:20:41.573 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: {
+  "accountId": 1,
+  "cardHolder": "Lucy 1 Sellen",
+  "cardNumber": 4321234512341230,
+  "cvv": "002",
+  "expiryDate": "0124",
+  "expenseLimit": 1000
+}
+2023-10-06 22:20:41.577 [INF] 
+
+2023-10-06 22:20:41.579 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 22:20:41.583 [INF] -------------Request-End------------
+2023-10-06 22:21:37.222 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:21:37.232 [INF] HeartBeat
+2023-10-06 22:21:37.234 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:21:37.237 [INF] -------------Request-Begin------------
+2023-10-06 22:21:37.240 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: {
+  "accountId": 1,
+  "cardHolder": "Lucy 1 Sellen",
+  "cardNumber": 431267893215561,
+  "cvv": "543",
+  "expiryDate": "0224",
+  "expenseLimit": 3000
+}
+2023-10-06 22:21:37.244 [INF] 
+
+2023-10-06 22:21:37.247 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 22:21:37.249 [INF] -------------Request-End------------
+2023-10-06 22:21:57.418 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:21:57.420 [INF] HeartBeat
+2023-10-06 22:21:57.422 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:21:57.447 [INF] -------------Request-Begin------------
+2023-10-06 22:21:57.450 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 22:21:57.455 [INF] 
+
+2023-10-06 22:21:57.458 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T22:26:57.446779+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MjA0MTcsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.H3ESWffazOCbSGDjovSBeXiZJLPM4ed0Q1xcnuauysI","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 22:21:57.461 [INF] -------------Request-End------------
+2023-10-06 22:22:10.220 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:22:10.223 [INF] HeartBeat
+2023-10-06 22:22:10.226 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:22:10.257 [INF] -------------Request-Begin------------
+2023-10-06 22:22:10.260 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+Request Body: {
+  "accountId": 1,
+  "cardHolder": "Lucy 1 Sellen",
+  "cardNumber": 431267893215561,
+  "cvv": "543",
+  "expiryDate": "0224",
+  "expenseLimit": 3000
+}
+2023-10-06 22:22:10.266 [INF] 
+
+2023-10-06 22:22:10.271 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-341257284127aae02fb7f86b47cf9c2b-02963fd09f733df4-00","errors":{"CardNumber":["Card number length min value is 16."]}}
+2023-10-06 22:22:10.273 [INF] -------------Request-End------------
+2023-10-06 22:22:17.815 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:22:17.817 [INF] HeartBeat
+2023-10-06 22:22:17.818 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:22:17.849 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Card' with unique index 'IX_Card_AccountId'. The duplicate key value is (1).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d41078ef-1049-4d9b-aeaa-c26fe111c642
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Card' with unique index 'IX_Card_AccountId'. The duplicate key value is (1).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d41078ef-1049-4d9b-aeaa-c26fe111c642
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-06 22:22:18.509 [FTL] Path=/vk/api/v1/Cards || Method=POST || Exception=An error occurred while saving the entity changes. See the inner exception for details.
+2023-10-06 22:22:18.651 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2b507624-2784-4b3a-bf69-cf52111ac2af and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 22:22:18.670 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2b507624-2784-4b3a-bf69-cf52111ac2af and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06 22:22:18.689 [ERR] Connection id "0HMU6K0V86B74", Request id "0HMU6K0V86B74:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2b507624-2784-4b3a-bf69-cf52111ac2af and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\hp\Desktop\aw-2-ozlemkrblt\pk-vkf\VkApi\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-06 22:26:04.974 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:26:04.984 [INF] HeartBeat
+2023-10-06 22:26:04.986 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:26:05.020 [INF] -------------Request-Begin------------
+2023-10-06 22:26:05.022 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByAccountId/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:26:05.025 [INF] 
+
+2023-10-06 22:26:05.027 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByAccountId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0527","expenseLimit":5000,"accountName":"Lucy1 Account 1","accountNumber":687567}]}
+2023-10-06 22:26:05.030 [INF] -------------Request-End------------
+2023-10-06 22:26:07.625 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:26:07.627 [INF] HeartBeat
+2023-10-06 22:26:07.629 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:26:07.647 [INF] -------------Request-Begin------------
+2023-10-06 22:26:07.648 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByAccountId/2 
+QueryString:  
+Request Body: 
+2023-10-06 22:26:07.651 [INF] 
+
+2023-10-06 22:26:07.660 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByAccountId/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":2,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341231,"cvv":"312","expiryDate":"0327","expenseLimit":1000,"accountName":"Lucy1 Account 2","accountNumber":687568}]}
+2023-10-06 22:26:07.663 [INF] -------------Request-End------------
+2023-10-06 22:26:15.192 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:26:15.195 [INF] HeartBeat
+2023-10-06 22:26:15.223 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:26:15.259 [INF] -------------Request-Begin------------
+2023-10-06 22:26:15.262 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByCustomerId/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:26:15.264 [INF] 
+
+2023-10-06 22:26:15.271 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/ByCustomerId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0527","expenseLimit":5000,"accountName":"Lucy1 Account 1","accountNumber":687567},{"accountId":2,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341231,"cvv":"312","expiryDate":"0327","expenseLimit":1000,"accountName":"Lucy1 Account 2","accountNumber":687568}]}
+2023-10-06 22:26:15.279 [INF] -------------Request-End------------
+2023-10-06 22:26:39.975 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:26:39.987 [INF] HeartBeat
+2023-10-06 22:26:39.993 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:26:40.036 [INF] -------------Request-Begin------------
+2023-10-06 22:26:40.037 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: 
+2023-10-06 22:26:40.043 [INF] 
+
+2023-10-06 22:26:40.045 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-06 22:26:40.047 [INF] -------------Request-End------------
+2023-10-06 22:28:35.930 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:28:35.937 [INF] HeartBeat
+2023-10-06 22:28:35.941 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:28:36.024 [INF] -------------Request-Begin------------
+2023-10-06 22:28:36.027 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: {
+  "customerId": 1,
+  "addressLine1": "Mrkz Şube:Sakarya Cad No:16 Manavkuyu",
+  "addressLine2": "string",
+  "city": "İzmir",
+  "county": "Bayraklı",
+  "postalCode": "35410"
+}
+2023-10-06 22:28:36.029 [INF] 
+
+2023-10-06 22:28:36.031 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}}
+2023-10-06 22:28:36.034 [INF] -------------Request-End------------
+2023-10-06 22:29:19.247 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:29:19.255 [INF] HeartBeat
+2023-10-06 22:29:19.257 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:29:19.259 [INF] -------------Request-Begin------------
+2023-10-06 22:29:19.260 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: {
+  "customerId": 2,
+  "addressLine1": "Eski Lara Caddesi",
+  "addressLine2": "Muratpaşa",
+  "city": "Antalya",
+  "county": "Bayraklı",
+  "postalCode": "07160"
+}
+2023-10-06 22:29:19.262 [INF] 
+
+2023-10-06 22:29:19.263 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 22:29:19.270 [INF] -------------Request-End------------
+2023-10-06 22:29:27.683 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:29:27.688 [INF] HeartBeat
+2023-10-06 22:29:27.691 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:29:27.706 [INF] -------------Request-Begin------------
+2023-10-06 22:29:27.709 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 22:29:27.720 [INF] 
+
+2023-10-06 22:29:27.722 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T22:34:27.7064313+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MjA4NjcsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.xcUbAQpXPEXC8pUbGUtReaxEcjA2VmzhbH67VTmP2Vs","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 22:29:27.725 [INF] -------------Request-End------------
+2023-10-06 22:29:42.719 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:29:42.721 [INF] HeartBeat
+2023-10-06 22:29:42.722 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:29:42.750 [INF] -------------Request-Begin------------
+2023-10-06 22:29:42.753 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: {
+  "customerId": 2,
+  "addressLine1": "Eski Lara Caddesi",
+  "addressLine2": "Muratpaşa",
+  "city": "Antalya",
+  "county": "Bayraklı",
+  "postalCode": "07160"
+}
+2023-10-06 22:29:42.758 [INF] 
+
+2023-10-06 22:29:42.761 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null}}
+2023-10-06 22:29:42.767 [INF] -------------Request-End------------
+2023-10-06 22:29:46.823 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:29:46.826 [INF] HeartBeat
+2023-10-06 22:29:46.828 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:29:46.846 [INF] -------------Request-Begin------------
+2023-10-06 22:29:46.849 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: 
+2023-10-06 22:29:46.852 [INF] 
+
+2023-10-06 22:29:46.855 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null}]}
+2023-10-06 22:29:46.863 [INF] -------------Request-End------------
+2023-10-06 22:35:13.261 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:35:13.268 [INF] HeartBeat
+2023-10-06 22:35:13.270 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:35:13.292 [INF] -------------Request-Begin------------
+2023-10-06 22:35:13.293 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: {
+  "customerId": 2,
+  "addressLine1": "Eski Lara Caddesi",
+  "addressLine2": "Muratpaşa",
+  "city": "Antalya",
+  "county": "Bayraklı",
+  "postalCode": "07160"
+}
+2023-10-06 22:35:13.298 [INF] 
+
+2023-10-06 22:35:13.300 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null}}
+2023-10-06 22:35:13.303 [INF] -------------Request-End------------
+2023-10-06 22:35:47.946 [INF] App server is starting.
+2023-10-06 22:36:05.773 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:36:05.778 [INF] HeartBeat
+2023-10-06 22:36:05.779 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:36:06.938 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:36:06.943 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:36:06.944 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:36:06.945 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:36:06.946 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:36:06.951 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-06 22:36:08.079 [INF] -------------Request-Begin------------
+2023-10-06 22:36:08.084 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 22:36:08.087 [INF] 
+
+2023-10-06 22:36:08.089 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T22:41:08.0578203+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MjEyNjcsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.GDYH9XJZv9K7FMke9Sa3m6VS-Tzy3E-9rbLIaY5ngbM","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 22:36:08.095 [INF] -------------Request-End------------
+2023-10-06 22:36:21.240 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:36:21.242 [INF] HeartBeat
+2023-10-06 22:36:21.271 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:36:21.488 [INF] -------------Request-Begin------------
+2023-10-06 22:36:21.491 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: 
+2023-10-06 22:36:21.495 [INF] 
+
+2023-10-06 22:36:21.499 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null}]}
+2023-10-06 22:36:21.502 [INF] -------------Request-End------------
+2023-10-06 22:37:05.124 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:37:05.132 [INF] HeartBeat
+2023-10-06 22:37:05.136 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:37:05.460 [INF] -------------Request-Begin------------
+2023-10-06 22:37:05.463 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: {
+     "customerId": 1,
+      "addressLine1": "Mrkz Şube:Sakarya Cad No:16 Manavkuyu",
+      "addressLine2": "string",
+      "city": "İzmir",
+      "county": "Bayraklı",
+      "postalCode": "35410"
+}
+2023-10-06 22:37:05.466 [INF] 
+
+2023-10-06 22:37:05.467 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"}}
+2023-10-06 22:37:05.470 [INF] -------------Request-End------------
+2023-10-06 22:37:16.474 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:37:16.476 [INF] HeartBeat
+2023-10-06 22:37:16.480 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:37:16.553 [INF] -------------Request-Begin------------
+2023-10-06 22:37:16.560 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:37:16.563 [INF] 
+
+2023-10-06 22:37:16.565 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-10-06 22:37:16.570 [INF] -------------Request-End------------
+2023-10-06 22:37:22.633 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:37:22.645 [INF] HeartBeat
+2023-10-06 22:37:22.650 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:37:22.663 [INF] -------------Request-Begin------------
+2023-10-06 22:37:22.670 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: 
+2023-10-06 22:37:22.674 [INF] 
+
+2023-10-06 22:37:22.676 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null},{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}]}
+2023-10-06 22:37:22.685 [INF] -------------Request-End------------
+2023-10-06 22:41:17.838 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:41:17.847 [INF] HeartBeat
+2023-10-06 22:41:17.849 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:41:17.856 [INF] -------------Request-Begin------------
+2023-10-06 22:41:17.862 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: 
+2023-10-06 22:41:17.865 [INF] 
+
+2023-10-06 22:41:17.867 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":null},{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}]}
+2023-10-06 22:41:17.871 [INF] -------------Request-End------------
+2023-10-06 22:41:37.798 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:41:37.800 [INF] HeartBeat
+2023-10-06 22:41:37.802 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:41:37.828 [INF] -------------Request-Begin------------
+2023-10-06 22:41:37.830 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:41:37.835 [INF] 
+
+2023-10-06 22:41:37.838 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}}
+2023-10-06 22:41:37.840 [INF] -------------Request-End------------
+2023-10-06 22:41:51.502 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:41:51.506 [INF] HeartBeat
+2023-10-06 22:41:51.509 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:41:51.591 [INF] -------------Request-Begin------------
+2023-10-06 22:41:51.597 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/ByCustomerId/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:41:51.599 [INF] 
+
+2023-10-06 22:41:51.600 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/ByCustomerId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"},{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"}]}
+2023-10-06 22:41:51.604 [INF] -------------Request-End------------
+2023-10-06 22:42:59.123 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:42:59.132 [INF] HeartBeat
+2023-10-06 22:42:59.135 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:42:59.259 [INF] -------------Request-Begin------------
+2023-10-06 22:42:59.264 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:42:59.267 [INF] 
+
+2023-10-06 22:42:59.270 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Cards/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"accountId":1,"cardHolder":"Lucy 1 Sellen","cardNumber":4321234512341234,"cvv":"330","expiryDate":"0527","expenseLimit":5000,"accountName":"Lucy1 Account 1","accountNumber":687567}}
+2023-10-06 22:42:59.275 [INF] -------------Request-End------------
+2023-10-06 22:43:11.281 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:43:11.283 [INF] HeartBeat
+2023-10-06 22:43:11.285 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:43:11.303 [INF] -------------Request-Begin------------
+2023-10-06 22:43:11.309 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:43:11.316 [INF] 
+
+2023-10-06 22:43:11.320 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 22:43:11.322 [INF] -------------Request-End------------
+2023-10-06 22:43:17.478 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:43:17.481 [INF] HeartBeat
+2023-10-06 22:43:17.484 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:43:17.527 [INF] -------------Request-Begin------------
+2023-10-06 22:43:17.530 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 22:43:17.532 [INF] 
+
+2023-10-06 22:43:17.535 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T22:48:17.5270032+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MjE2OTcsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.9T2B_g6U-f_bkHMuth6weVhz_zVD-24bMz7xIa_KAZs","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 22:43:17.544 [INF] -------------Request-End------------
+2023-10-06 22:43:30.979 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:43:30.984 [INF] HeartBeat
+2023-10-06 22:43:30.986 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:43:31.037 [INF] -------------Request-Begin------------
+2023-10-06 22:43:31.041 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:43:31.046 [INF] 
+
+2023-10-06 22:43:31.051 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}}
+2023-10-06 22:43:31.055 [INF] -------------Request-End------------
+2023-10-06 22:44:06.159 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:44:06.168 [INF] HeartBeat
+2023-10-06 22:44:06.171 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:44:06.204 [INF] -------------Request-Begin------------
+2023-10-06 22:44:06.205 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 22:44:06.208 [INF] 
+
+2023-10-06 22:44:06.211 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T22:49:06.2025328+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MjE3NDYsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.G9bT7lQBNtER2qdCKxVSTVgZm-SI_-ER4SePJs8vjJE","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 22:44:06.218 [INF] -------------Request-End------------
+2023-10-06 22:44:22.706 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:44:22.708 [INF] HeartBeat
+2023-10-06 22:44:22.710 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:44:22.745 [INF] -------------Request-Begin------------
+2023-10-06 22:44:22.747 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:44:22.749 [INF] 
+
+2023-10-06 22:44:22.751 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}}
+2023-10-06 22:44:22.753 [INF] -------------Request-End------------
+2023-10-06 22:58:54.569 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:58:54.573 [INF] HeartBeat
+2023-10-06 22:58:54.575 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:58:54.604 [INF] -------------Request-Begin------------
+2023-10-06 22:58:54.606 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 22:58:54.609 [INF] 
+
+2023-10-06 22:58:54.611 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T23:03:54.6045892+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MjI2MzQsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.cESF1ag7UObHxJUdbRyfAWyKrJV0EG_YiGaGDB5eYpY","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 22:58:54.615 [INF] -------------Request-End------------
+2023-10-06 22:59:13.184 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:59:13.187 [INF] HeartBeat
+2023-10-06 22:59:13.189 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:59:13.228 [INF] -------------Request-Begin------------
+2023-10-06 22:59:13.232 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: 
+2023-10-06 22:59:13.235 [INF] 
+
+2023-10-06 22:59:13.239 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":"Lucy 2 Sellen"},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":"Lucy 2 Sellen"},{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"}]}
+2023-10-06 22:59:13.244 [INF] -------------Request-End------------
+2023-10-06 22:59:49.860 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 22:59:49.865 [INF] HeartBeat
+2023-10-06 22:59:49.867 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 22:59:49.897 [INF] -------------Request-Begin------------
+2023-10-06 22:59:49.899 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+Request Body: 
+2023-10-06 22:59:49.901 [INF] 
+
+2023-10-06 22:59:49.909 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}}
+2023-10-06 22:59:49.914 [INF] -------------Request-End------------
+2023-10-06 23:00:25.013 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:00:25.061 [INF] HeartBeat
+2023-10-06 23:00:25.064 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:00:25.086 [INF] -------------Request-Begin------------
+2023-10-06 23:00:25.090 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+Request Body: 
+2023-10-06 23:00:25.092 [INF] 
+
+2023-10-06 23:00:25.094 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}}
+2023-10-06 23:00:25.096 [INF] -------------Request-End------------
+2023-10-06 23:00:45.931 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:00:45.940 [INF] HeartBeat
+2023-10-06 23:00:45.943 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:00:45.982 [INF] -------------Request-Begin------------
+2023-10-06 23:00:45.984 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+Request Body: {
+     "customerId": 1,
+      "addressLine1": "Mrkz Şube:Sakarya Cad No:16 Manavkuyu",
+      "addressLine2": "string",
+      "city": "İzmir",
+      "county": "Bayraklı",
+      "postalCode": "35410",
+}
+2023-10-06 23:00:45.988 [INF] 
+
+2023-10-06 23:00:45.990 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-f4785db16dc907725f7598690d8c0cef-bac336f8b7cd0397-00","errors":{"$":["The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $ | LineNumber: 7 | BytePositionInLine: 0."],"request":["The request field is required."]}
+2023-10-06 23:00:45.996 [INF] -------------Request-End------------
+2023-10-06 23:00:52.868 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:00:52.872 [INF] HeartBeat
+2023-10-06 23:00:52.875 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:00:52.916 [INF] -------------Request-Begin------------
+2023-10-06 23:00:52.919 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+Request Body: {
+     "customerId": 1,
+      "addressLine1": "Mrkz Şube:Sakarya Cad No:16 Manavkuyu",
+      "addressLine2": "string",
+      "city": "İzmir",
+      "county": "Bayraklı",
+      "postalCode": "35410"
+}
+2023-10-06 23:00:52.923 [INF] 
+
+2023-10-06 23:00:52.925 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-10-06 23:00:52.929 [INF] -------------Request-End------------
+2023-10-06 23:01:00.551 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:01:00.554 [INF] HeartBeat
+2023-10-06 23:01:00.556 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:01:00.579 [INF] -------------Request-Begin------------
+2023-10-06 23:01:00.582 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/ByCustomerId/1 
+QueryString:  
+Request Body: 
+2023-10-06 23:01:00.585 [INF] 
+
+2023-10-06 23:01:00.593 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/ByCustomerId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"},{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"}]}
+2023-10-06 23:01:00.597 [INF] -------------Request-End------------
+2023-10-06 23:06:03.189 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:06:03.197 [INF] HeartBeat
+2023-10-06 23:06:03.200 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:06:03.206 [INF] -------------Request-Begin------------
+2023-10-06 23:06:03.208 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+Request Body: 
+2023-10-06 23:06:03.211 [INF] 
+
+2023-10-06 23:06:03.213 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-06 23:06:03.221 [INF] -------------Request-End------------
+2023-10-06 23:06:08.730 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:06:08.739 [INF] HeartBeat
+2023-10-06 23:06:08.742 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:06:08.761 [INF] -------------Request-Begin------------
+2023-10-06 23:06:08.764 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 23:06:08.772 [INF] 
+
+2023-10-06 23:06:08.776 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T23:11:08.7616329+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MjMwNjgsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.nCmK9x-TNurA1oityxJcmj9MroLbryp17eKPmzC-uwI","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 23:06:08.785 [INF] -------------Request-End------------
+2023-10-06 23:06:21.677 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:06:21.679 [INF] HeartBeat
+2023-10-06 23:06:21.681 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:06:21.725 [INF] -------------Request-Begin------------
+2023-10-06 23:06:21.731 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+Request Body: 
+2023-10-06 23:06:21.736 [INF] 
+
+2023-10-06 23:06:21.738 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/4 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":null}}
+2023-10-06 23:06:21.740 [INF] -------------Request-End------------
+2023-10-06 23:06:31.442 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:06:31.447 [INF] HeartBeat
+2023-10-06 23:06:31.452 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:06:31.472 [INF] -------------Request-Begin------------
+2023-10-06 23:06:31.477 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: 
+2023-10-06 23:06:31.481 [INF] 
+
+2023-10-06 23:06:31.483 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":"Lucy 2 Sellen"},{"customerId":2,"addressLine1":"Eski Lara Caddesi","addressLine2":"Muratpaşa","city":"Antalya","county":"Bayraklı","postalCode":"07160","customerName":"Lucy 2 Sellen"},{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"}]}
+2023-10-06 23:06:31.494 [INF] -------------Request-End------------
+2023-10-06 23:09:06.950 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:09:06.956 [INF] HeartBeat
+2023-10-06 23:09:06.958 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:09:06.984 [INF] -------------Request-Begin------------
+2023-10-06 23:09:06.989 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 10001,
+  "password": "hello"
+}
+2023-10-06 23:09:06.992 [INF] 
+
+2023-10-06 23:09:06.994 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations!!","response":null}
+2023-10-06 23:09:07.000 [INF] -------------Request-End------------
+2023-10-06 23:09:12.114 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:09:12.117 [INF] HeartBeat
+2023-10-06 23:09:12.120 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:09:12.147 [INF] -------------Request-Begin------------
+2023-10-06 23:09:12.157 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "customerNumber": 100001,
+  "password": "hello"
+}
+2023-10-06 23:09:12.160 [INF] 
+
+2023-10-06 23:09:12.163 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-06T23:14:12.1462324+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJDdXN0b21lck51bWJlciI6IjEwMDAwMSIsIlJvbGUiOiJhZG1pbiIsIkVtYWlsIjoibHVjeTFAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Ikx1Y3kgMSBTZWxsZW4iLCJleHAiOjE2OTY2MjMyNTIsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.pNaEKxPwKGfgh3oTubCxl03a79RLLMcden6GpcqB_KM","email":"lucy1@gmail.com","customerNumber":100001}}
+2023-10-06 23:09:12.171 [INF] -------------Request-End------------
+2023-10-06 23:10:15.785 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:10:15.791 [INF] HeartBeat
+2023-10-06 23:10:15.794 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:10:15.840 [INF] -------------Request-Begin------------
+2023-10-06 23:10:15.843 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+Request Body: {
+  "customerId": 1,
+  "addressLine1": "Hafsa Sultan Mah. Oz Saruhan Bul. ",
+  "addressLine2": "No:5/17",
+  "city": "Manisa",
+  "county": "Yunusemre",
+  "postalCode": "35100"
+}
+2023-10-06 23:10:15.848 [INF] 
+
+2023-10-06 23:10:15.850 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Hafsa Sultan Mah. Oz Saruhan Bul. ","addressLine2":"No:5/17","city":"Manisa","county":"Yunusemre","postalCode":"35100","customerName":"Lucy 1 Sellen"}}
+2023-10-06 23:10:15.852 [INF] -------------Request-End------------
+2023-10-06 23:10:34.093 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:10:34.104 [INF] HeartBeat
+2023-10-06 23:10:34.106 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:10:34.141 [INF] -------------Request-Begin------------
+2023-10-06 23:10:34.143 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/5 
+QueryString:  
+Request Body: 
+2023-10-06 23:10:34.147 [INF] 
+
+2023-10-06 23:10:34.149 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"customerId":1,"addressLine1":"Hafsa Sultan Mah. Oz Saruhan Bul. ","addressLine2":"No:5/17","city":"Manisa","county":"Yunusemre","postalCode":"35100","customerName":"Lucy 1 Sellen"}}
+2023-10-06 23:10:34.152 [INF] -------------Request-End------------
+2023-10-06 23:10:46.578 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-06 23:10:46.594 [INF] HeartBeat
+2023-10-06 23:10:46.597 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-06 23:10:46.615 [INF] -------------Request-Begin------------
+2023-10-06 23:10:46.617 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/ByCustomerId/1 
+QueryString:  
+Request Body: 
+2023-10-06 23:10:46.619 [INF] 
+
+2023-10-06 23:10:46.622 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7260 
+Path: /vk/api/v1/Address/ByCustomerId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"},{"customerId":1,"addressLine1":"Mrkz Şube:Sakarya Cad No:16 Manavkuyu","addressLine2":"string","city":"İzmir","county":"Bayraklı","postalCode":"35410","customerName":"Lucy 1 Sellen"},{"customerId":1,"addressLine1":"Hafsa Sultan Mah. Oz Saruhan Bul. ","addressLine2":"No:5/17","city":"Manisa","county":"Yunusemre","postalCode":"35100","customerName":"Lucy 1 Sellen"}]}
+2023-10-06 23:10:46.628 [INF] -------------Request-End------------
